@@ -21,7 +21,7 @@
 - слой mart - здесь формируется витрина для BI — агрегированные и подготовленные для отчёта данные.
 
 # Пример финального предоставления отчета через Power BI
-![Image](https://github.com/user-attachments/assets/18e2fed7-3f11-4630-9ef0-1ac28d43adef)
+![Image](https://github.com/user-attachments/assets/390e630a-0d2f-450e-84ab-50603d88a4e9)
 
 # Подготовительные операции
 
@@ -40,11 +40,7 @@ pip install -r requirements.txt
 
 **Обозначения:**
 
-`START_LOAN_DATE` - дата открытия кредита
-
-`END_LOAN_DATE` - дата закрытия кредита
-
-`NUM_CLIENTS` - количество клиентов для генерации
+`START_LOAN_DATE` - минимальная дата открытия кредита
 
 `RAW_DIR` - папка для хранения "сырого" источника данных
 
@@ -64,8 +60,6 @@ SPLIT_DIR=data_generation/raw_split_files
 
 # Настройки генерации данных
 START_LOAN_DATE=2010-01-01
-END_LOAN_DATE=2025-05-01
-NUM_CLIENTS=20
 ```
 
 ## 4. Создание структуры DWH:
