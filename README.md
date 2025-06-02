@@ -21,7 +21,7 @@
 - слой mart - здесь формируется витрина для BI — агрегированные и подготовленные для отчёта данные.
 
 # Пример финального предоставления отчета через Power BI
-![Image](https://github.com/user-attachments/assets/e7059551-d9cb-4f09-bc20-d48e86dc3502)
+![Image](https://github.com/user-attachments/assets/18e2fed7-3f11-4630-9ef0-1ac28d43adef)
 
 # Подготовительные операции
 
